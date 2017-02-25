@@ -1,0 +1,24 @@
+bem_theme.mobile:
+  label: mobile
+  mediaQuery: '(min-width: 0px)'
+  weight: 0
+  multipliers:
+   - 1x
+bem_theme.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 480px) and (max-width: 767px)'
+  weight: 1
+  multipliers:
+    - 1x
+bem_theme.medium:
+  label: medium
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 959px)'
+  weight: 1
+  multipliers:
+    - 1x
+bem_theme.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 960px)'
+  weight: 2
+  multipliers:
+    - 1x

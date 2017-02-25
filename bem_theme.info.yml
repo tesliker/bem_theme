@@ -1,0 +1,7 @@
+name: Bem Theme
+type: theme
+description: 'A theme incorporating a BEM style of thinking.'
+package: Core
+version: 8.x-1.0
+core: 8.x
+base theme: false
